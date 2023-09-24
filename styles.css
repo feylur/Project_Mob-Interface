@@ -1,7 +1,129 @@
-h1 {
-  color: red;
+* {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
 }
 
-p {
-  color: orange;
+.header {
+  width: 375px;
+  height: 48px;
+  position: relative;
+}
+
+.time {
+  position: absolute;
+  width: 140px;
+  height: 40px;
+  padding: 10px 12px;
+  top: 7px;
+  left: 22px;
+  color: #000;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 20px;
+}
+
+.bars {
+  position: absolute;
+  top: 18px;
+  left: 250px;
+}
+
+.logo {
+  position: absolute;
+  width: 140px;
+  height: 40px;
+  padding: 10px 12px;
+  top: 50px;
+  left: 12px;
+  color: #6070ff;
+  font-weight: 700;
+  font-size: 20px;
+  font-family: "Poppins-Bold", Helvetica, serif;
+  font-style: normal;
+  line-height: 20px;
+}
+
+.menu {
+  position: relative;
+  top: 56px;
+  left: 275px;
+}
+
+.custom-background {
+  width: 375px;
+  height: 587.146px;
+  flex-shrink: 0;
+  position: absolute;
+  top: 90px;
+}
+
+.home-section {
+  background-image: url('../img/header-shapes\ mobile@2x.svg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 375px;
+  height: 718px;
+  position: relative;
+}
+
+.home-content {
+  width: 375px;
+  height: 604px;
+  position: absolute;
+  top: 92px;
+  color: #344563;
+}
+
+.title {
+  width: 300px;
+  height: 150px;
+  font-size: 40px;
+  font-weight: 700;
+  font-family: "Poppins-Bold", Helvetica, serif;
+  line-height: 52px;
+  letter-spacing: 2px;
+  word-spacing: 3px;
+  text-align: left;
+  margin-left: 20px;
+  color: #172b4d;
+  position: absolute;
+  top: 30px;
+}
+
+.content {
+  width: 300px;
+  height: 146px;
+  font-size: 16px;
+  font-weight: 400;
+  font-family: "Poppins-Bold", Helvetica, serif;
+  font-style: normal;
+  line-height: 24px;
+  letter-spacing: 0;
+  text-align: left;
+  margin-left: 20px;
+  margin-top: 10px;
+  color: #172b4d;
+  position: absolute;
+  top: 180px;
+}
+
+span {
+  color: #7f8cff;
+  margin-left: 20px;
+  line-height: 24px;
+  position: absolute;
+  top: 350px;
+}
+
+.media-icons {
+  margin-left: 20px;
+  display: flex;
+  color: #505f79;
+  margin-top: 20px;
+  gap: 20px;
+  position: absolute;
+  top: 370px;
+  font-size: 25px;
 }
