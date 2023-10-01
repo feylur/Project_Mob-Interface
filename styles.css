@@ -10,24 +10,6 @@
   position: relative;
 }
 
-.time {
-  position: absolute;
-  width: 140px;
-  height: 40px;
-  padding: 10px 12px;
-  top: 7px;
-  left: 22px;
-  color: #000;
-  font-weight: 700;
-  font-size: 14px;
-  line-height: 20px;
-}
-
-.bars {
-  position: absolute;
-  top: 18px;
-  left: 250px;
-}
 
 .logo {
   position: absolute;
