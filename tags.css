@@ -1,0 +1,21 @@
+:root {
+  --primaryb-50: rgba(235, 235, 255, 1);
+  --primaryb-400: rgba(96, 112, 255, 1);
+  --button-small-font-family: "Poppins-Medium", helvetica, serif;
+  --button-small-font-weight: 500;
+  --button-small-font-size: 12px;
+  --button-small-letter-spacing: 0.36px;
+  --button-small-line-height: 16px;
+  --button-small-font-style: normal;
+}
+
+:root {
+  --primaryb-400: rgba(96, 112, 255, 1);
+  --primaryb-500: rgba(57, 109, 242, 1);
+  --button-normal-font-family: "Poppins-Medium", helvetica, serif;
+  --button-normal-font-weight: 500;
+  --button-normal-font-size: 17px;
+  --button-normal-letter-spacing: 0.51px;
+  --button-normal-line-height: 24px;
+  --button-normal-font-style: normal;
+}
